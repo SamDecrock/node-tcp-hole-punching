@@ -50,7 +50,7 @@ function connectToS () {
 	});
 
 	socketToS.on('end', function () {
-	    console.log('> (A->S) connection closed by server.');
+	    console.log('> (A->S) connection closed.');
 	});
 
 	socketToS.on('error', function (err) {
